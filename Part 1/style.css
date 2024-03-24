@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227,230,230);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.image{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    transition: opacity linear 250ms;
+    animation-name: imge;
+    animation-duration: 3s;
+}
+
+
+.image:hover{
+    opacity: 0.4;
+}
+
+.img1{
+    float: right;
+}
+
+
+.img2{
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+.nigazon{
+    text-align: center;
+    position: relative;
+    bottom: 170px;
+
+}
+
+
+.nig{
+    text-align: center;
+    animation: nig ;
+}
+
+
+.span1{
+    font-size: 35px;
+}
+
+.btnn{
+    width: 230px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition-property: height;
+    transition-duration: 1s;
+    position: relative;
+    left: 600px;
+    top: 30px;
+}
+
+.btnn:hover{
+ height:  70px;
+}
+.container {
+    display: grid;
+    
+}
+div:nth-of-type(2) {
+    background-color: aquamarine;
+    height: 250px;
+    width: 300px;
+
+}
+.PC {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    left: 570px;
+    top: 50px;
+}
+
+div:nth-of-type(3) {
+    background-color: rgb(142, 88, 28);
+    height: 250px;
+    width: 300px;
+}
+div:nth-of-type(4) {
+    background-color: rgb(110, 20, 83);
+    height: 250px;
+    width: 300px;
+}
+div:nth-of-type(5) {
+    background-color: rgb(37, 87, 70);
+    height: 250px;
+    width: 300px;
+}
